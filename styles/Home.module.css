@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgb(186, 186, 195);
 }
 
 .footer {
@@ -83,6 +84,7 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+  background-color: lightblue;
 }
 
 .card:hover,
@@ -126,4 +128,9 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.landingImage {
+  height: 500px;
+  background-image: url("../public/background.jpg");
 }
